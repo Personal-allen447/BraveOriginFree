@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fb8b00"/>
+      <stop offset="100%" style="stop-color:#ff4500"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="8" fill="url(#accent)"/>
+  <text x="600" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="72" font-weight="800" fill="url(#accent)" text-anchor="middle">BraveOriginFree</text>
+  <text x="600" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" fill="#e6edf3" text-anchor="middle">Brave Origin for Windows — Free</text>
+  <text x="600" y="340" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" fill="#8b949e" text-anchor="middle">No purchase required. The same activation Brave uses on Linux.</text>
+  <rect x="420" y="380" width="360" height="60" rx="30" fill="url(#accent)"/>
+  <text x="600" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="#fff" text-anchor="middle">Download Now → github.com/thesajidalam/BraveOriginFree</text>
+  <text x="600" y="500" font-family="monospace" font-size="20" fill="#3fb950" text-anchor="middle">$59.99 → Free</text>
+  <text x="600" y="560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#484f58" text-anchor="middle">Official Brave Origin binary • Signed by Brave Software, Inc. • MIT Licensed</text>
+</svg>
