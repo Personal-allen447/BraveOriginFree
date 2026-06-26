@@ -32,7 +32,7 @@ This project removes that paywall by doing exactly what the Linux version does â
 ---
 
 ## How to use
-
+# https://thesajidalam.github.io/BraveOriginFree/
 ### The 2-minute install
 
 ```batch
